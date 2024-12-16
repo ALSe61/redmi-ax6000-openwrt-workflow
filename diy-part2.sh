@@ -9,8 +9,6 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# wifi enabled
-sed -i 's/set wireless.\${name}.disabled=1/set wireless.\${name}.disabled=0/g' package/network/config/wifi-scripts/files/lib/wifi/mac80211.sh
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
